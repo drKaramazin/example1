@@ -1,0 +1,46 @@
+<div class="lh-so--widget" id="lh_desktop_smartoffer" data-agreement="{{agreement_text}}" style="display: none;">
+    <div class="widget--cover"></div>
+
+    <div class="widget--container">
+        <div class="widget--logo_container">
+            {{#img_src}}<img src="{{img_src}}" alt="" class="widget--logo">{{/img_src}}
+            {{#img_src_second}}<img src="{{img_src_second}}" alt="" class="widget--logo-second">{{/img_src_second}}
+            {{#img_src_third}}<img src="{{img_src_third}}" alt="" class="widget--logo-third">{{/img_src_third}}
+        </div>
+
+        <div class="widget--info">
+            <h1 class="widget--title">{{{title_text}}}</h1>
+            <p class="widget--text">{{{text}}}</p>
+            {{#text_second}}<p class="widget--text-second">{{{text_second}}}</p>{{/text_second}}
+
+            <form action="lh_banner" method="" class="widget--form">
+                <p class="widget--error_text visibility_none">{{{error_text}}}</p>
+
+                {{#display_first_field}}
+                <input name="{{name_first_field}}" type="text" class="first--widget--input" placeholder="{{placeholder_first_text}}">
+                {{/display_first_field}}
+
+                <input name="{{name_second_field}}{{^name_second_field}}email{{/name_second_field}}" type="text" class="widget--input" placeholder="{{placeholder_text}}">
+
+                {{#agreement_text}}
+                <div class="agreement">
+                    <input id="agreement-val" name="agreement" type="checkbox" checked />
+                    <label for="agreement-val" id="agreement_text"> {{{agreement_text}}}</label>
+                    <a target="_blank" href="{{{agreement_link_url}}}">{{agreement_link_label}}</a>
+                </div>
+                {{/agreement_text}}
+
+                <input type="submit" class="widget--submit" value="{{submit_text}}">
+            </form>
+        </div>
+
+        <p class="widget--success-text display_none">{{{success_text}}}</p>
+
+        <div class="widget--ribbon_wrapper">
+            <div class="widget--ribbon_wrapper_line">
+                <div class="widget--ribbon_text">{{ribbon_text}}</div>
+            </div>
+        </div>
+        <div class="widget--close">{{{close_button_text}}}</div>
+    </div>
+</div>

@@ -1,0 +1,308 @@
+{
+"html_vars": [
+  {
+    "name": "img_src",
+    "value": "https://media.leadhit.ru/upload/_/9708.png",
+    "title": "Путь к файлу логотипа"
+  },
+  {
+    "name": "title_text",
+    "value": "Получите скидку на <br />Ваш будущий заказ!",
+    "title": "Заглавный текст виджета"
+  },
+  {
+    "name": "text",
+    "value": "Укажите свой e-mail, и мы <br />вышлем вам инструкцию!",
+    "title": "Текст приглашающий пользователя ввести email"
+  },
+  {
+    "name": "text_second",
+    "value": "",
+    "title": "Дополнительное текстовое поле"
+  },
+  {
+    "name": "display_first_field",
+    "value": "",
+    "title": "Выводить первое поле ввода"
+  },
+  {
+    "name": "name_first_field",
+    "value": "name",
+    "title": "Имя первого поля"
+  },
+  {
+    "name": "name_second_field",
+    "value": "email",
+    "title": "Имя второго поля"
+  },
+  {
+    "name": "placeholder_first_text",
+    "value": "имя",
+    "title": "Placeholder первого поля"
+  },
+  {
+    "name": "placeholder_text",
+    "value": "e-mail",
+    "title": "Placeholder второго поля"
+  },
+  {
+    "name": "submit_text",
+    "value": "Получить бонус",
+    "title": "Текст кнопки 'Submit'"
+  },
+  {
+    "name": "ribbon_text",
+    "value": "АКЦИЯ!",
+    "title": "Текст ярлыка акции"
+  },
+  {
+    "name": "close_button_text",
+    "value": "",
+    "title": "Текст кнопки закрытия виджета"
+  },
+  {
+    "name": "error_text",
+    "value": "Введите корректный e-mail",
+    "title": "Текст сообщения об ошибке"
+  },
+  {
+    "name": "success_text",
+    "value": "Спасибо! Уже отправляем вам письмо!",
+    "title": "Текст сообщения об успешной отправке"
+  },
+  {
+    "name": "img_src_second",
+    "value": "",
+    "title": "Путь к файлу второго логотипа"
+  },
+  {
+    "name": "img_src_third",
+    "value": "",
+    "title": "Путь к файлу третьего логотипа"
+  },
+  {
+    "name": "agreement_text",
+    "value": "Я даю своё согласие на обработку персональных данных и принимаю условия ",
+    "title": "Согласие на обработку персональных данных"
+  },
+  {
+    "name": "agreement_link_label",
+    "value": "Пользовательского соглашения",
+    "title": "Надпись ссылки пользовательского соглашения"
+  },
+  {
+    "name": "agreement_link_url",
+    "value": "/",
+    "title": "Url на пользовательское соглашение"
+  }
+],
+"css_vars": [
+  {
+    "name": "widget_width",
+    "value": "750px",
+    "title": "Ширина виджета"
+  },
+  {
+    "name": "widget_height",
+    "value": "387px",
+    "title": "Высота виджета"
+  },
+  {
+    "name": "widget_corner_radius_size",
+    "value": "10px",
+    "title": "Радиус скругления углов виджета"
+  },
+  {
+    "name": "widget_background",
+    "value": "#fffddb",
+    "title": "Цвет фона виджета"
+  },
+  {
+    "name": "widget_background_image",
+    "value": "",
+    "title": "Фоновое изображение виджета"
+  },
+  {
+    "name": "logo_width",
+    "value": "auto",
+    "title": "Ширина логотипа"
+  },
+  {
+    "name": "logo_height",
+    "value": "auto",
+    "title": "Высота логотипа"
+  },
+  {
+    "name": "logo_padding",
+    "value": "70px 0px 0px 50px",
+    "title": "Отступы от логотипа(t/r/b/l)"
+  },
+  {
+    "name": "logo_position",
+    "value": "left",
+    "title": "Положение логотипа"
+  },
+  {
+    "name": "widget_title_style",
+    "value": "font: bold 28px Arial, sans-serif; line-height: 1.2; text-align: center; color: #070707; width: 350px;  margin: 0px 0px 0px 0px;",
+    "title": "Стили текста заголовка"
+  },
+  {
+    "name": "widget_text_style",
+    "value": "font: normal 18px Arial, sans-serif; line-height: 1.2; text-align: center; color: #636769; margin: 20px 0px 0px 0px; width: 350px;",
+    "title": "Стили текстового поля"
+  },
+  {
+    "name": "widget_text_style_second",
+    "value": "",
+    "title": "Стили дополнительного текстового поля"
+  },
+  {
+    "name": "widget_info_padding",
+    "value": "50px 50px 50px 334px",
+    "title": "Паддинги текстового блока(t/r/b/l)"
+  },
+  {
+    "name": "form_top",
+    "value": "50px",
+    "title": "Верхний отступ формы ввода данных"
+  },
+  {
+    "name": "form_right",
+    "value": "0px",
+    "title": "Правый отступ формы ввода данных"
+  },
+  {
+    "name": "input_width",
+    "value": "350px",
+    "title": "Ширина поля ввода"
+  },
+  {
+    "name": "input_height",
+    "value": "38px",
+    "title": "Высота поля ввода"
+  },
+  {
+    "name": "input_font",
+    "value": "normal 13px Arial, sans-serif",
+    "title": "Стили поля ввода"
+  },
+  {
+    "name": "input_margin",
+    "value": "-14px 0px 22px;",
+    "title": "Ширина отступов поля ввода"
+  },
+  {
+    "name": "first_input_width",
+    "value": "350px",
+    "title": "Ширина первого поля ввода"
+  },
+  {
+    "name": "first_input_height",
+    "value": "38px",
+    "title": "Высота первого поля ввода"
+  },
+  {
+    "name": "first_input_margin",
+    "value": "-14px 0px 22px;",
+    "title": "Ширина отступов первого поля ввода"
+  },
+  {
+    "name": "submit_button_styles",
+    "value": "background: #8c8475; width: 350px; height: 41px; margin-left: 0px;",
+    "title": "Блок стилей неактивной кнопки Submit"
+  },
+  {
+    "name": "submit_button_text_styles",
+    "value": "line-height:42px; font-size:20pt; font-weight:700; font-family:Arial; text-shadow:1px 1px 1px rgba(150, 150, 150, 1); color:#fff; text-shadow:#555 1px 1px;",
+    "title": "Блок стилей текста кнопки Submit"
+  },
+  {
+    "name": "submit_button_active_bottom",
+    "value": "#eab208",
+    "title": "Нижний цвет активной кнопки Submit"
+  },
+  {
+    "name": "submit_button_active_top",
+    "value": "#fff417",
+    "title": "Верхний цвет активной кнопки Submit"
+  },
+  {
+    "name": "submit_button_active_color_text",
+    "value": "#fff",
+    "title": "Цвет текста на кнопке Submit"
+  },
+  {
+    "name": "submit_success_text_styles",
+    "value": "color: #000000; font-size:22px; padding: 100px 0px 0px 5px; width: 390px;",
+    "title": "Блок стилей текста об успешной отправке"
+  },
+  {
+    "name": "close_icon",
+    "value": "https://media.leadhit.ru/widgets_v2/Smart_final/img/close-icon.png",
+    "title": "Иконка закрывашки окна"
+  },
+  {
+    "name": "close_button_text_color",
+    "value": "purple",
+    "title": "Цвет текста кнопки закрывающей виджет"
+  },
+  {
+    "name": "close_button_background_color",
+    "value": "transparent",
+    "title": "Цвет фона кнопки, закрывающей виджет"
+  },
+  {
+    "name": "logo_second_style",
+    "value": "left: 0px; top: 0px; height: auto;",
+    "title": "Стили второго логотипа"
+  },
+  {
+    "name": "logo_third_style",
+    "value": "left: 0px; top: 0px; height: auto;",
+    "title": "Стили третьего логотипа"
+  },
+  {
+    "name": "custom_css",
+    "value": "",
+    "title": "Блок с произвольным CSS"
+  },
+  {
+    "name": "agreement_style",
+    "value": "font: normal 12px Arial, sans-serif; top: -10px; left: 0px;",
+    "title": "Стиль согласия на обработку персональных данных"
+  }
+],
+"js_vars": [
+  {
+    "name": "input_mode",
+    "value": "email",
+    "title": "Режим инпута телефон/email"
+  },
+  {
+    "name": "display_before_submit",
+    "value": "",
+    "title": "Показывать виджет, после ввода информации"
+  },
+  {
+    "name": "closed_cookie_name",
+    "value": "lh_banner_closed",
+    "title": "Closed banner cookie name"
+  },
+  {
+    "name": "filled_cookie_name",
+    "value": "lh_banner_filled",
+    "title": "Filled banner cookie name"
+  },
+  {
+    "name": "showed_cookie_name",
+    "value": "lh_banner_showed",
+    "title": "Showed banner cookie name"
+  },
+  {
+    "name": "DEV",
+    "value": "",
+    "title": "DEV for PROGRAMMERS (please, do not edit this)"
+  }
+]
+}
